@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CozyFinds — Cozy Bedroom Ideas, Room Decor &amp; Gift Finds</title>
+  <meta name="description" content="Discover cozy bedroom ideas, desk setups, small-room inspiration, and thoughtful gift ideas — curated, affordable finds for a home (and life) you love.">
+  <meta property="og:title" content="CozyFinds — Cozy Bedroom Ideas, Room Decor & Gift Finds">
+  <meta property="og:description" content="Curated, affordable finds for cozy bedrooms, better desk setups, and thoughtful gifts.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero/og-cover.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23B5654A'/%3E%3Ctext x='50' y='68' font-family='Georgia,serif' font-size='58' fill='white' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__icon" aria-hidden="true">🕯️</span>
+        <span class="logo__text">CozyFinds</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Primary">
+        <ul class="main-nav__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="room-finds.html">Room Finds</a></li>
+          <li><a href="gift-ideas.html">Gift Ideas</a></li>
+          <li><a href="articles.html">Ideas</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-header__actions">
+        <form class="search-form" action="search.html" method="get" role="search">
+          <label for="header-search" class="sr-only">Search products</label>
+          <input type="search" id="header-search" name="q" placeholder="Search cozy finds…">
+          <button type="submit" aria-label="Search">🔍</button>
+        </form>
+
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="container hero__inner">
+        <span class="eyebrow">Curated by CozyFinds</span>
+        <h1>Cozy Finds for a Home (and Life) You'll Love</h1>
+        <p class="hero__subtext">We hunt down affordable, Pinterest-worthy finds for cozy bedrooms, better desk setups, and thoughtful gifts — so you don't have to scroll for hours.</p>
+        <div class="hero__actions">
+          <a href="room-finds.html" class="btn btn--primary">Explore Room Finds</a>
+          <a href="gift-ideas.html" class="btn btn--secondary">Explore Gift Ideas</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="hero__image-wrap reveal">
+          <img id="hero-image" src="images/hero/hero-main.jpg" alt="Cozy, warmly lit bedroom styled with soft textures and string lights">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="legal-content" style="text-align:center;">
+          <p>CozyFinds is a small corner of the internet dedicated to making your space feel warmer and your gift-giving feel easier. Every product here is hand-picked for being cozy, useful, affordable, or all three.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--muted">
+      <div class="container">
+        <div class="section__header">
+          <div>
+            <h2>Featured Finds</h2>
+            <p class="text-muted">Our current favorites, all in one place.</p>
+          </div>
+        </div>
+        <div class="grid" id="featured-products-grid"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <div>
+            <h2>Popular Categories</h2>
+            <p class="text-muted">Jump straight to what you're looking for.</p>
+          </div>
+        </div>
+        <div class="category-grid" id="popular-categories-grid"></div>
+      </div>
+    </section>
+
+    <section class="section section--muted">
+      <div class="container">
+        <div class="section__header">
+          <div>
+            <h2>Latest Recommendations</h2>
+            <p class="text-muted">Freshly added to the CozyFinds list.</p>
+          </div>
+        </div>
+        <div class="grid" id="latest-products-grid"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <div>
+            <h2>Ideas &amp; Inspiration</h2>
+            <p class="text-muted">Pinterest-friendly guides worth saving.</p>
+          </div>
+          <a href="articles.html" class="section__link">View All Ideas →</a>
+        </div>
+        <div class="article-grid" id="home-articles-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div class="site-footer__brand">
+          <a href="index.html" class="logo"><span aria-hidden="true">🕯️</span> CozyFinds</a>
+          <p>Curated cozy finds for your room, and thoughtful gifts for the people you love.</p>
+          <!-- TODO: replace with your real Pinterest profile URL -->
+          <a href="#" class="social-link" target="_blank" rel="noopener">Pinterest ↗</a>
+        </div>
+
+        <div class="site-footer__col">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="room-finds.html">Room Finds</a></li>
+            <li><a href="gift-ideas.html">Gift Ideas</a></li>
+            <li><a href="articles.html">Ideas &amp; Inspiration</a></li>
+          </ul>
+        </div>
+
+        <div class="site-footer__col">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="site-footer__col">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site-footer__disclosure">
+        <p>💛 CozyFinds is reader-supported. Some links on this site are affiliate links, which means we may earn a small commission if you make a purchase — at no extra cost to you. <a href="affiliate-disclosure.html">Learn more</a>.</p>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p>© <span id="current-year"></span> CozyFinds. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById("hero-image").addEventListener("error", function () {
+      this.src = placeholderImage("Cozy Bedroom Hero Photo");
+    });
+
+    renderProductGrid(getFeaturedProducts(8), document.getElementById("featured-products-grid"));
+    renderProductGrid(getLatestProducts(8), document.getElementById("latest-products-grid"));
+
+    // "Popular Categories" mixes a few room + gift categories, each linking
+    // to the correct hub page (room-finds.html or gift-ideas.html).
+    var popularGrid = document.getElementById("popular-categories-grid");
+    popularGrid.innerHTML = "";
+    var popularFragment = document.createDocumentFragment();
+    ROOM_CATEGORIES.slice(0, 3).forEach(function (cat) {
+      popularFragment.appendChild(createCategoryCard(cat, "room-finds.html"));
+    });
+    GIFT_CATEGORIES.slice(0, 3).forEach(function (cat) {
+      popularFragment.appendChild(createCategoryCard(cat, "gift-ideas.html"));
+    });
+    popularGrid.appendChild(popularFragment);
+
+    renderArticleGrid(ARTICLES.slice(0, 3), document.getElementById("home-articles-grid"));
+    setupScrollReveal();
+  </script>
+</body>
+</html>
