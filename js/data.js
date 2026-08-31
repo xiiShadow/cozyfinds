@@ -135,10 +135,10 @@ const PRODUCTS = [
   },
   {
     id: "p02", name: "Warm Glow Fairy Lights (20ft)", section: "room", category: "cozy-bedrooms",
-    price: "$13.99",
+    price: "$9.99",
     description: "Warm white LED string lights that add a soft, dreamy glow to any bedroom.",
-    image: "images/products/p02.jpg", imageAlt: "Warm white fairy lights draped along a bedroom wall",
-    affiliateLink: "AFFILIATE_LINK_02", featured: true, latest: false,
+    image: "images/products/warm glow fairy lights.jpg", imageAlt: "Warm white fairy lights draped along a bedroom wall",
+    affiliateLink: "https://s.noon.com/rPmtQLlzQVE", featured: true, latest: false,
     tags: ["lights", "fairy lights", "lighting", "cozy", "affordable"]
   },
   {
