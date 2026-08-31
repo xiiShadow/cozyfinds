@@ -143,28 +143,28 @@ const PRODUCTS = [
   },
   {
     id: "p03", name: "Faux Fur Area Rug", section: "room", category: "cozy-bedrooms",
-    price: "$42.00",
+    price: "$28.67",
     description: "A plush faux fur rug that feels amazing underfoot and adds instant texture to your floor.",
-    image: "images/products/p03.jpg", imageAlt: "Cream faux fur rug on a bedroom floor",
-    affiliateLink: "AFFILIATE_LINK_03", featured: false, latest: false,
+    image: "images/products/faux-fur-area-rug.jpg", imageAlt: "Cream faux fur rug on a bedroom floor",
+    affiliateLink: "https://s.noon.com/Q5tBZxSLSdA", featured: false, latest: false,
     tags: ["rug", "faux fur", "texture", "bedroom"]
   },
   {
     id: "p04", name: "Cloud Support Body Pillow", section: "room", category: "cozy-bedrooms",
-    price: "$28.50",
+    price: "$40.84",
     description: "A full-length body pillow designed for extra comfort while reading, lounging, or sleeping.",
-    image: "images/products/p04.jpg", imageAlt: "Long body pillow resting on a made bed",
-    affiliateLink: "AFFILIATE_LINK_04", featured: false, latest: true,
+    image: "images/products/cloud-support-body-pillow.jpg", imageAlt: "Long body pillow resting on a made bed",
+    affiliateLink: "https://s.noon.com/8nZjvirFj8E", featured: false, latest: true,
     tags: ["pillow", "body pillow", "comfort", "bedroom"]
   },
 
   // ---------- Desk Setups ----------
   {
-    id: "p05", name: "Bamboo Monitor Stand with Storage", section: "room", category: "desk-setups",
-    price: "$27.00",
+    id: "p05", name: "Wood Monitor Stand With Ports", section: "room", category: "desk-setups",
+    price: "$19.00",
     description: "Raises your monitor to eye level while tucking supplies neatly underneath.",
-    image: "images/products/p05.jpg", imageAlt: "Bamboo monitor stand with storage compartment on a desk",
-    affiliateLink: "AFFILIATE_LINK_05", featured: true, latest: false,
+    image: "images/products/wood-monitor-stand.jpg", imageAlt: "Bamboo monitor stand with storage compartment on a desk",
+    affiliateLink: "https://s.noon.com/R60rON4FBB8", featured: true, latest: false,
     tags: ["desk", "monitor stand", "office", "organization"]
   },
   {
